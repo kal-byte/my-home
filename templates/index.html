@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: https://ogp.me/ns#">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#2370ef" />
+    <meta property="og:title" content="Kallum's Website" />
+    <meta property="og:description" content="I don't know what I'll use this website for but, cool." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.kal-byte.co.uk/" />
+    <meta property="og:image" content="https://i.imgur.com/SzJJkmJ.jpg" />
+    <title>kal-byte's home</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1 class="title">Welcome to Kallum's Website.</h1>
+    <p>I engineer <a href="https://github.com/platform-discord/travis-bott/">Travis Bott</a> under the AGPLv3 License.</p>
+    <p>This is a pretty bare page for now, I'll work on it more soon enough I guess.</p>
+    <h2>Travis Bott Statistics:</h2>
+    <p>Guilds: {{ guilds }}</p>
+    <p>Users: {{ users }}</p>
+    <p>Commands loaded: {{ commands }}</p>
+    <p>Contact the Developer: kal#1806</p>
+</body>
+</html>
